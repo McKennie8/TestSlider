@@ -1,39 +1,43 @@
-.bigcard {
+.testimonial-slider {
+    width: 100%;
+}
+
+.testimonial-card {
     height: 400px;
     width: 400px;
-    
+
     display: flex;
     margin: 1rem;
     box-shadow:  0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
-.quotes img{
+.testimonial-icon img{
     padding: 30px 20px 10px 30px ;
     height: 35px;
     width: auto;
 }
 
-.blurb {
+.testimonial-text {
     padding: 10px 30px 20px 30px ;
     font-size: 25px;
 }
-.photo {
+.testimonial-image {
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.photo img {
+.testimonial-image img {
     border-radius: 50%;
     height: 100px;
     margin: 0;
     padding: 5px;
-    
+
 
 }
-.name {
-    
+.testimonial-name {
+
     text-align: center;
     font-size: 25px;
     padding-top: 10px;
